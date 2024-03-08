@@ -1,0 +1,31 @@
+1. Import the java.util.Scanner class.
+
+2. Define a public class called Main.
+
+3. Define a public static void main method that takes an array of strings as input.
+
+4. Create a new instance of the Scanner class and assign it to a variable called scanner.
+
+5. Create a new double array called userList with a length of 5.
+
+6. Initialize an integer variable called index to 0.
+
+7. Start a while loop with the condition index < 5.
+
+    8. Print "Enter a number: " to the console.
+
+    9. Read a double value from the user using the scanner.nextDouble() method and assign it to userList[index].
+
+    10. Increment the index variable by 1.
+
+11. Print "Total is " followed by the sum of userList[0], userList[1], userList[2], userList[3], and userList[4].
+
+12. Print "Average is " followed by the average of userList[0], userList[1], userList[2], userList[3], and userList[4].
+
+13. Print "Max is " followed by the maximum value among userList[0], userList[1], userList[2], userList[3], and userList[4].
+
+14. Print "Min is " followed by the minimum value among userList[0], userList[1], userList[2], userList[3], and userList[4].
+
+15. Print "Interest on total at 20% is " followed by the product of the sum of userList[0], userList[1], userList[2], userList[3], and userList[4] and 0.2.
+
+16. Close the scanner using the scanner.close() method.
